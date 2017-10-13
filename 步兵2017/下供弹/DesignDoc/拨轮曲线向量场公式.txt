@@ -1,0 +1,10 @@
+切点
+a=((d^2*x-d*y*sqrt(x^2+y^2-d^2))/(x^2+y^2)) or ((d^2*x+d*y*sqrt(x^2+y^2-d^2))/(x^2+y^2))
+b=((d^2*y+d*x*sqrt(x^2+y^2-d^2))/(x^2+y^2)) or ((d^2*y-d*x*sqrt(x^2+y^2-d^2))/(x^2+y^2))
+
+ux=((d*x-y*sqrt(x^2+y^2-d^2))/(x^2+y^2)) or ((d*x+y*sqrt(x^2+y^2-d^2))/(x^2+y^2))
+uy=((d*y+x*sqrt(x^2+y^2-d^2))/(x^2+y^2)) or ((d*y-x*sqrt(x^2+y^2-d^2))/(x^2+y^2))
+
+单位前进速度
+uvx=((d^2*x-d*y*sqrt(x^2+y^2-d^2))/sqrt(x^2+y^2)^3) or ((d^2*x+d*y*sqrt(x^2+y^2-d^2))/sqrt(x^2+y^2)^3)
+uvy=((d^2*y+d*x*sqrt(x^2+y^2-d^2))/sqrt(x^2+y^2)^3) or ((d^2*y-d*x*sqrt(x^2+y^2-d^2))/sqrt(x^2+y^2)^3)
